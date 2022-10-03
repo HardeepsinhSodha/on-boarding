@@ -35,7 +35,6 @@ export default function StepOneForm({ onSuccessfullSubmit }: props) {
     },
     validationSchema: schema,
   });
-  console.log(formik.touched);
   return (
     <div className="prose lg:prose-lg text-center prose-h2:mb-1 lg:prose-h2:mb-1 mt-6">
       <h2>Welcome! First things first...</h2>
